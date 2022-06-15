@@ -393,6 +393,22 @@ input[type=button] {
   margin: 0;
 }
 
+.map figure {
+  position: relative;
+  padding-bottom: 125%;
+  width: 100%;
+  height: 0;
+  overflow: hidden;
+}
+
+.map iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
 
 
 /* ==========================================================================
@@ -695,6 +711,10 @@ About Page
   align-items: flex-start;
 }
 
+.map figure {
+  padding-bottom: 45%;
+}
+
 
 /* ==========================================================================
 FAQ Page
@@ -754,7 +774,7 @@ header {
   width: 70%;
   font-size: 3.75em;
   }
-}
+
 
 header figure {
   width: 25%;
@@ -815,6 +835,10 @@ About Page
 
 .contact-content h4 {
   font-size: 1.875em;
+}
+
+.map figure {
+  padding-bottom: 38%;
 }
 
   /* ==========================================================================
